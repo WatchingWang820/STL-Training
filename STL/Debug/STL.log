@@ -1,17 +1,7 @@
 ﻿  main.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(675,27): error C2440: “static_cast”: 无法从“watching::allocator<int>”转换为“watching::allocator<_Newfirst>”
+C:\Users\wqx\Desktop\Git\STL-Training\STL\iterator.h(64,1): error C2105: '++' needs l-value
+C:\Users\wqx\Desktop\Git\STL-Training\STL\main.cpp(47): message : see reference to function template instantiation 'size_t array_size<char,3>(T (&)[3])' being compiled
           with
           [
-              _Newfirst=std::_Container_proxy
+              T=char
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(675,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(672): message : 在编译 类 模板 成员函数“std::vector<int,watching::allocator<int>>::~vector(void) noexcept”时
-C:\Users\wqx\code\C++\STL\STL\main.cpp(7): message : 查看对正在编译的函数 模板 实例化“std::vector<int,watching::allocator<int>>::~vector(void) noexcept”的引用
-C:\Users\wqx\code\C++\STL\STL\main.cpp(7): message : 查看对正在编译的 类 模板 实例化“std::vector<int,watching::allocator<int>>”的引用
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(675,25): error C2530: “_Alproxy”: 必须初始化引用
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(676,1): error C3536: “_Alproxy”: 初始化之前无法使用
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(676,9): error C2672: “_Delete_plain_internal”: 未找到匹配的重载函数
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(676,1): error C2893: 未能使函数模板“void std::_Delete_plain_internal(_Alloc &,_Alloc::value_type *const ) noexcept”专用化
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\xmemory(1031): message : 参见“std::_Delete_plain_internal”的声明
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(676,1): message : 用下列模板参数:
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29333\include\vector(676,1): message : “_Alloc=int”

@@ -16,6 +16,18 @@
     <Filter Include="Allocator">
       <UniqueIdentifier>{a25846ab-8790-4298-87b4-37ca6ee9ebf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Smart_Pointer">
+      <UniqueIdentifier>{865712e7-dd42-4f6b-b1b8-53ff5b26abda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual_map">
+      <UniqueIdentifier>{139eac3d-2a1d-4268-bfa5-53a01b2780a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator">
+      <UniqueIdentifier>{6f67fd35-a1de-4e58-ab8a-ea60c2518495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_structure">
+      <UniqueIdentifier>{97107f7a-45cb-4a9a-97c8-ca7e1ceb993c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="template_traits.h">
@@ -23,6 +35,30 @@
     </ClInclude>
     <ClInclude Include="allocator.h">
       <Filter>Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_ptr.h">
+      <Filter>Smart_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_map.h">
+      <Filter>virtual_map</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_ptr.h">
+      <Filter>Smart_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="deleter.h">
+      <Filter>Smart_Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="type_traits.h">
+      <Filter>Template_Trait</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator_traits.h">
+      <Filter>Template_Trait</Filter>
+    </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="RB-Tree.h">
+      <Filter>data_structure</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
