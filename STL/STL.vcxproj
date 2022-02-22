@@ -141,18 +141,31 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="allocator.h" />
+    <ClInclude Include="BaseWorker.h" />
+    <ClInclude Include="callback_helper.h" />
+    <ClInclude Include="crtp.h" />
     <ClInclude Include="deleter.h" />
     <ClInclude Include="iterator.h" />
-    <ClInclude Include="iterator_traits.h" />
+    <ClInclude Include="libevent\event_async_queue.h" />
+    <ClInclude Include="libevent\event_engine.h" />
+    <ClInclude Include="LRU.h" />
     <ClInclude Include="RB-Tree.h" />
+    <ClInclude Include="RingArray.h" />
     <ClInclude Include="shared_ptr.h" />
-    <ClInclude Include="template_traits.h" />
+    <ClInclude Include="state_machine.h" />
+    <ClInclude Include="ThreadPool.h" />
     <ClInclude Include="type_traits.h" />
     <ClInclude Include="unique_ptr.h" />
     <ClInclude Include="virtual_map.h" />
+    <ClInclude Include="waitable_event.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BaseWorker.cpp" />
+    <ClCompile Include="libevent\event_async_queue.cpp" />
+    <ClCompile Include="libevent\event_engine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="state_machine.cpp" />
+    <ClCompile Include="waitable_event.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

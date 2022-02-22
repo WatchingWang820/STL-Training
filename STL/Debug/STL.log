@@ -1,7 +1,2 @@
 ﻿  main.cpp
-C:\Users\wqx\Desktop\Git\STL-Training\STL\iterator.h(64,1): error C2105: '++' needs l-value
-C:\Users\wqx\Desktop\Git\STL-Training\STL\main.cpp(47): message : see reference to function template instantiation 'size_t array_size<char,3>(T (&)[3])' being compiled
-          with
-          [
-              T=char
-          ]
+  STL.vcxproj -> C:\Users\wqx\Desktop\Git\STL-Training\Debug\STL.exe

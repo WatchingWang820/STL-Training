@@ -28,11 +28,23 @@
     <Filter Include="data_structure">
       <UniqueIdentifier>{97107f7a-45cb-4a9a-97c8-ca7e1ceb993c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CRTP">
+      <UniqueIdentifier>{e5522ae8-1ee8-4040-ae9d-4b5d447c7645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock">
+      <UniqueIdentifier>{dfec9c99-3bb9-46f7-9b81-689013109dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachine">
+      <UniqueIdentifier>{d0767922-75be-4889-8d75-381b0fc04777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CallbackHelper">
+      <UniqueIdentifier>{706644db-583d-4107-9858-23eed58435dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{ff508ce9-b1ac-46c9-8e79-8905fe800bef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="template_traits.h">
-      <Filter>Template_Trait</Filter>
-    </ClInclude>
     <ClInclude Include="allocator.h">
       <Filter>Allocator</Filter>
     </ClInclude>
@@ -51,19 +63,61 @@
     <ClInclude Include="type_traits.h">
       <Filter>Template_Trait</Filter>
     </ClInclude>
-    <ClInclude Include="iterator_traits.h">
-      <Filter>Template_Trait</Filter>
-    </ClInclude>
     <ClInclude Include="iterator.h">
       <Filter>Iterator</Filter>
     </ClInclude>
     <ClInclude Include="RB-Tree.h">
       <Filter>data_structure</Filter>
     </ClInclude>
+    <ClInclude Include="crtp.h">
+      <Filter>CRTP</Filter>
+    </ClInclude>
+    <ClInclude Include="waitable_event.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="state_machine.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="callback_helper.h">
+      <Filter>CallbackHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWorker.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\event_async_queue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent\event_engine.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="RingArray.h">
+      <Filter>data_structure</Filter>
+    </ClInclude>
+    <ClInclude Include="LRU.h">
+      <Filter>data_structure</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="waitable_event.cpp">
+      <Filter>Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="state_machine.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWorker.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\event_async_queue.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent\event_engine.cpp">
+      <Filter>Thread</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
