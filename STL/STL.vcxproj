@@ -142,18 +142,23 @@
   <ItemGroup>
     <ClInclude Include="allocator.h" />
     <ClInclude Include="BaseWorker.h" />
+    <ClInclude Include="binary_search.h" />
     <ClInclude Include="callback_helper.h" />
     <ClInclude Include="crtp.h" />
     <ClInclude Include="deleter.h" />
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="libevent\event_async_queue.h" />
     <ClInclude Include="libevent\event_engine.h" />
     <ClInclude Include="LRU.h" />
+    <ClInclude Include="MapReachPoint.h" />
+    <ClInclude Include="MaxSubSum.h" />
     <ClInclude Include="RB-Tree.h" />
     <ClInclude Include="RingArray.h" />
     <ClInclude Include="shared_ptr.h" />
     <ClInclude Include="state_machine.h" />
     <ClInclude Include="ThreadPool.h" />
+    <ClInclude Include="Tree.h" />
     <ClInclude Include="type_traits.h" />
     <ClInclude Include="unique_ptr.h" />
     <ClInclude Include="virtual_map.h" />
